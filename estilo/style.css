@@ -14,7 +14,7 @@ body, html{
 main{
     width: 100vw;
     height: 100vh;
-    
+    position: relative;
 }
 section{
     position: absolute;
@@ -23,7 +23,7 @@ section{
     transform: translate(-50%, -50%);
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 480px;
     padding: 10px;
     transition: 0.7s;
     overflow: hidden;
@@ -32,7 +32,7 @@ section{
 #img1{
     display: block;
     background: #1919b6 url(../imagem/pexels-alizee-marchand-937788.jpg) no-repeat center center;
-    height: 230px;
+    height: 210px;
     background-size: cover;
     
 }
