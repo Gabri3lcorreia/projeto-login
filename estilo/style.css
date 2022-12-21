@@ -1,13 +1,20 @@
 @charset "UTF-8";
 
 *{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     padding: 0;
 }
 
 
-body{
-    background-color: rgb(25, 25, 182);
+body, html{
+    background-color: #1919b6;
+    box-sizing: border-box;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
 }
 section{
     position: absolute;
@@ -15,21 +22,37 @@ section{
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    width: fit-content;
-    height: fit-content;
+    width: 250px;
+    height: 500px;
     padding: 10px;
     transition: 0.7s;
+    overflow: hidden;
     
 }
 #img1{
+    display: block;
+    background: #1919b6 url(../imagem/pexels-alizee-marchand-937788.jpg) no-repeat center center;
+    height: 230px;
+    background-size: cover;
     
 }
 #formulario > h1{
     text-align: center;
+}
+#formulario{
+    display: block;
+    
+}
+fieldset{
+    border: 1px dashed black;
 }
 #p1{
    padding: 10px; 
 }
 .p2{
     padding: 5px;
+}
+#in{
+    background-color: #3350ce;
+    margin-left: 167px;
 }
