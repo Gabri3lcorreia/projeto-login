@@ -25,7 +25,8 @@ section{
     width: 250px;
     height: 480px;
     padding: 10px;
-    transition: 0.7s;
+    transition: width 0.7s, height 0.7s;
+    transition-timing-function: ease;
     overflow: hidden;
     
 }

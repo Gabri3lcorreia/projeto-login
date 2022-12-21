@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        background-image: linear-gradient(to bottom, #1919b6, #5d5dc5, #afafe6, white);
+    }
    section{
     width: 80vw;
    }
@@ -19,21 +22,24 @@
 }
 
 @media screen and (min-width: 992px) {
+    body{
+        background-image: linear-gradient(to bottom, #1919b6, #5d5dc5, #afafe6, white);
+    }
     section{
         width: 990px;
     }
     #img1{
-        float: right;
+        float: left;
         width: 50%;
         height: 100%;
 
     }
     #formulario{
-        float: left;
+        float: right;
         width: 50%
     }
     fieldset{
-        margin-right: 10px;
+        margin-left: 10px;
     }
 }
 
