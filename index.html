@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projeto-login</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/telas.css">
+</head>
+<body>
+
+    <main>
+        <section>
+            <div id="imagem">
+                <img id="img1" src="" alt="">
+            </div>
+            <div id="formulario">
+                <h1>Login</h1>
+                    <p id="p1">Seja bem-vindo(a) novamente. Faça login para acessar sua conta e pode fazer as configurações no seu ambiente.</p>
+                    <form action="cadastro.js" method="get" autocomplete="on">
+                        
+                            <p class="p2">
+                                <label for="iemail">Email: </label>
+                                <input type="email" name="email" id="iemail" autocomplete="email" placeholder="Seu E-mail" required>
+                            </p>
+                            <p class="p2">
+                                <label for="isenha">Senha: </label>
+                                <input type="password" name="senha" id="isenha" placeholder="Sua Senha" required minlength="8">
+                                
+                            </p>
+                            <p class="p2">
+                                <input type="submit" value="Entrar">
+                            </p>
+                            <p class="p2">
+                                <input type="password" name="esqueci" id="iesqueci" placeholder="Esqueci a senha">
+                            </p>
+                        
+                    </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
