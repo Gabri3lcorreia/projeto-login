@@ -23,7 +23,7 @@ section{
     transform: translate(-50%, -50%);
     background-color: white;
     width: 250px;
-    height: 480px;
+    height: fit-content;
     padding: 10px;
     transition: width 0.7s, height 0.7s;
     transition-timing-function: ease;
@@ -44,6 +44,8 @@ section{
 }
 #formulario{
     display: block;
+    width: fit-content;
+    height: fit-content;
     
 }
 #formulario > p{
@@ -51,7 +53,7 @@ section{
 }
 fieldset{
     border: 1px dashed black;
-    
+
 }
 #p1{
    padding: 10px; 
