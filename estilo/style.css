@@ -39,13 +39,19 @@ section{
 }
 #formulario > h1{
     text-align: center;
+    
+    
 }
 #formulario{
     display: block;
     
 }
+#formulario > p{
+    font-size: 1em;
+}
 fieldset{
     border: 1px dashed black;
+    
 }
 #p1{
    padding: 10px; 
@@ -55,5 +61,6 @@ fieldset{
 }
 #in{
     background-color: #3350ce;
-    margin-left: 167px;
+    margin-left: 30px;
+    margin-right: 10px;
 }
