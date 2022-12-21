@@ -62,7 +62,38 @@ fieldset{
     padding: 5px;
 }
 #in{
+    display: inline-block;
     background-color: #3350ce;
-    margin-left: 30px;
-    margin-right: 10px;
+    margin-left: 29px;
+    margin-right: 6px;
+    margin-bottom: 2px;
+    height: 25px;
+    font-weight: 600;
+    font-size: 1em;
+}
+#in:hover{
+    transform: translate(-1px, -1px);
+    cursor: pointer;
+}
+
+.botao{
+   display: inline-block;
+   margin-bottom: 2px;
+   text-decoration: none;
+   color: black;
+   background-color: #3350ce;
+   border: 1px solid black;
+   height: 23px;
+   font-weight: 500;
+   font-size: 1em;
+   
+   
+   
+}
+.botao:hover{
+    transform: translate(-1px, -1px);
+}
+#imgspan{
+    font-size: 1em;
+    
 }
